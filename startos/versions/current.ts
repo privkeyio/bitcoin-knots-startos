@@ -42,10 +42,10 @@ const mempoolReset = {
 }
 
 export const current = VersionInfo.of({
-  version: '#knots:29.3.1:10',
+  version: '#knots:29.3.1:11',
   releaseNotes: {
     en_US:
-      'Bump version to ensure migration for startOS 0.3.5.1 users.',
+      'Custom sub-Knots build: garbageman filtering node plus reduced-data policy PRs, assembled from source. Reuses the existing chain.',
     es_ES:
       'Actualizar la versión para garantizar la migración para los usuarios de startOS 0.3.5.1.',
     de_DE:
